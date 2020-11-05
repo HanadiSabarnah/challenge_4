@@ -1,23 +1,28 @@
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import Table from './components/component1.jsx'
 
-// import React from 'react';
-// import ReactDOM from 'react-dom';
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          
+        }
+    }
+    render() {
+        return (
+            <div>                   
+               
 
-// class App extends React.Component {
-//     constructor() {
-//         super()
-//         this.state = {
-//         }
-//     }
-   
-//     render() {
-//         return (
-//             <div>
-//                hello world
-//             </div>
-//         )
-//     }
-// }
+            </div>
+
+        )
+    }
+
+}
 
 
-// ReactDOM.render(<App />, document.getElementById("app"))
+ReactDOM.render(<App />, document.getElementById('app'));
+
+
 
